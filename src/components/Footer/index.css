@@ -1,7 +1,6 @@
 .footer {
   font-size: 1.2rem;
   font-weight: 500;
-  padding-bottom: 0.3rem;
 }
 
 .footer a {
@@ -15,5 +14,12 @@
 }
 
 .footer a:hover span {
-  background-color: #DEEDF7;
+  background-color: #deedf7;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: .8rem;
+    font-weight: 500;
+  }
 }
