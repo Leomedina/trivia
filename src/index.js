@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Routes from './routes';
+import Trivia from './pages/Trivia';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <Trivia />
   </React.StrictMode>,
   document.getElementById('root')
 );
