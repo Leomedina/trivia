@@ -8,8 +8,10 @@ function QuestionForm({ shuffledChoices, answer, handleGameState }) {
     event.preventDefault();
     if (radioData === answer) {
       handleGameState('success');
+      setRadioData('');
     } else {
       handleGameState('failed');
+      setRadioData('');
     };
   };
 
