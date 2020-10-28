@@ -1,0 +1,15 @@
+.trivia-question {
+  font-size: 2.5rem;
+}
+
+.choice {
+  display: block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .trivia-question {
+    font-size: 1.5rem;
+  }
+}

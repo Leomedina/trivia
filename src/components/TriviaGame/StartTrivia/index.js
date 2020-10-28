@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-function StartForm({ setGameState }) {
+function StartTrivia({ setGameState }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -15,4 +15,4 @@ function StartForm({ setGameState }) {
   );
 };
 
-export default StartForm;
+export default StartTrivia;
