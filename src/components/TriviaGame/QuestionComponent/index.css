@@ -1,0 +1,9 @@
+.submit {
+  transform: scale(1);
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
